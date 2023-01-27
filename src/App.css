@@ -1,0 +1,244 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.user-text-description {
+    color: rgb(152, 151, 151);
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.small-font-text {
+    font-family: 'Source Serif 4';
+    font-weight: 400;
+    font-size: 12px;
+    color: #36393E;
+}
+
+.user-text-description-bold {
+    color: rgb(8, 8, 8);
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.number-text {
+    text-align: center;
+    font-weight: 200;
+    font-size: 19px;
+}
+
+.color-red {
+    color: rgb(100, 102, 220);
+}
+
+.button {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+    border: 1px solid #c9c7c7;
+    border-radius: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: rgb(223, 154, 16);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.user-otherDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-top: 15px;
+}
+
+.appointment-box {
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: stretch;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.apointment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: stretch;
+}
+
+.apointment-data {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.hr-line {
+    height: 1px;
+    background-color: rgb(216, 215, 215);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.vr-line {
+    width: 1px;
+    background-color: rgb(216, 215, 215);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.user-text-heading {
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.label {
+    color: rgb(218, 216, 216);
+    font-size: 10px;
+}
+
+.side-nav {
+    flex: 0.1;
+    display: flex;
+    background: white;
+    box-shadow: 1px 1px 0.5px rgba(232, 230, 230, 0.3);
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.prifileAndDoc {
+    flex: 0.3;
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.doc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+.doc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.h-space {
+    width: 10px;
+}
+
+.apointment-doc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.v-space {
+    margin-bottom: 10px;
+}
+
+.top-margin {
+    margin-top: 5px;
+}
+
+.awatar {
+    text-align: center;
+    margin: auto;
+}
+
+.option-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgb(245, 243, 243);
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    background-color: white;
+    padding: 8px;
+}
+
+.event {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.line {
+    height: 32px;
+    width: 1px;
+    background-color: rgb(208, 206, 206);
+}
+
+.inputSecton {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.otherSection {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}

@@ -1,0 +1,37 @@
+span {
+    font-size: 8px;
+    padding-top: 5px;
+}
+
+
+.logo-container {
+    background-color: greenyellow;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.text-heading {
+    color: rgb(183, 179, 179);
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.imgStyle {
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
